@@ -1,14 +1,10 @@
 #include<iostream>
 using namespace std;
 main(){
+int n;
+cout<<"Enter the number of sides opf polygon: ";
+cin>>n;
 int x;
-cout<<"Number of Minutes: ";
-cin>>x;
-int y;
-cout<<"Frames per Second: ";
-cin>> y;
-int z;
-z=x*y*60;
-cout<<"Total Number of Frames: "<<z;
-
+x=(n-2)*180;
+cout<<"The sum of internal angles of a "<<n<<"-sided polygon is: "<<x<<" degrees";
 }
